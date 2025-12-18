@@ -4,6 +4,7 @@
 #include <ostream>
 #include <stdio.h>
 using std::cout, std::cin, std::endl;
+void spacer() { cout << "\n---------------------\n"; }
 class weapon {
 public:
   char name[40];
@@ -17,7 +18,6 @@ public:
   weapon() : weapon("weapon", 1, 1) {};
 };
 
-void spacer() { cout << "\n---------------------\n"; }
 int main() {
   spacer();
   weapon sword("sword", 12, 10);
