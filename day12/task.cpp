@@ -5,6 +5,7 @@
 #include <locale.h>
 #include <ostream>
 #include <stdio.h>
+
 using std::cout, std::cin, std::endl;
 void spacer() { cout << "\n---------------------\n"; }
 int main() {
