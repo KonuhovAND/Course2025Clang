@@ -3,16 +3,16 @@
 #include <iostream>
 #include <iterator>
 #include <string>
-using std::cout, std::cin, std::endl;
+using std::cout, std::cin;
 
 struct Player {
   signed int id;
   char password[10];
   char login[40];
   void printData() {
-    cout << "id is " << id << endl;
-    cout << "login is " << login << endl;
-    cout << "password is " << password << endl;
+    cout << "id is " << id << std::endl;
+    cout << "login is " << login << std::endl;
+    cout << "password is " << password << std::endl;
   }
 };
 
@@ -22,13 +22,13 @@ int main() {
   loid.get_name();
   loid.get_type();
   loid.get_extended_damage();
-  cout << "total damage is " << loid.get_damage() << endl;
+  cout << "total damage is " << loid.get_damage() << std::endl;
   sword.get_type();
   sword.set_type(TypeOfWeapon::TWOHANDED);
   sword.get_type();
   Player Nikita = {67676767, "1234", "mylogin"};
   Nikita.printData();
   cout << "\n----------------------------\n";
-  cout << (loid > sword) << endl;
+  cout << (loid > sword) << std::endl;
   cout << "\n----------------------------\n";
 }
