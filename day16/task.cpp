@@ -6,6 +6,7 @@
 #include <string>
 using std::cout, std::cin, std::endl;
 
+
 struct Player {
   signed int id;
   char password[10];
