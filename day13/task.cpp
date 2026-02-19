@@ -1,5 +1,5 @@
-#include "./headers/Characteristic.h"
-#include "./headers/myMath.h"
+#include "./Headers/Characteristic.h"
+#include "./Headers/myMath.h"
 #include <cstring>
 #include <iostream>
 #include <locale.h>
